@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="interests.html" class="nav-link">Interests</a>
+        <a href="career.html" class="nav-link">Career</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+
+    <header class="hero">
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you! Feel free to reach out with any questions or comments.</p>
+    </header>
+
+    <main>
+        <section class="contact-section">
+            <h2 class="interests-section">Get in Touch</h2>
+            <form action="send_email.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer style="margin-top: 20px; padding: 15px; text-align: center; background-color: #f1f1f1; border-top: 1px solid #ccc;">
+        <p style="margin: 0;">&copy; 2024 Shivani Pednekar. All rights reserved.</p>
+        <p style="margin: 5px 0;">Follow me on:
+            <a href="https://www.linkedin.com/in/shivani-pednekar/" target="_blank" style="margin-right: 10px;">LinkedIn</a>
+            
+           
+        </p>
+        <p style="margin: 5px 0;">Contact: <a href="mailto:shivanipednekar2@gmail.com">Shivani Pednekar</a></p>
+    </footer>
+</body>
+</html>
